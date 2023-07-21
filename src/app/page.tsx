@@ -6,8 +6,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between w-full">
       <Header></Header>
 
-      <p>Lais Tattoo</p>
-      <Button></Button>
+      <Button
+        text="saiba mais"
+        href="https://www.instagram.com/laiss.tattoo/"
+        target="_blank"
+      ></Button>
     </main>
   );
 }
