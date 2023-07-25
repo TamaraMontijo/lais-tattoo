@@ -16,7 +16,7 @@ export function Header() {
           <a
             href="http://google.com.br"
             target="_blank"
-            className="text-slate-300 hover:scale-105 hover:font-normal tracking-wider"
+            className="text-[#333333] hover:scale-105 hover:font-normal tracking-wider"
             rel="noopener noreferrer"
           >
             INÍCIO
@@ -24,7 +24,7 @@ export function Header() {
           <a
             href="http://google.com.br"
             target="_blank"
-            className="text-slate-300 hover:scale-105 hover:font-normal tracking-wider"
+            className="text-[#333333] hover:scale-105 hover:font-normal tracking-wider"
             rel="noopener noreferrer"
           >
             SOBRE
@@ -32,7 +32,7 @@ export function Header() {
           <a
             href="http://google.com.br"
             target="_blank"
-            className="text-slate-300 hover:scale-105 hover:font-normal tracking-wider"
+            className="text-[#333333] hover:scale-105 hover:font-normal tracking-wider"
             rel="noopener noreferrer"
           >
             DETALHES
@@ -40,7 +40,7 @@ export function Header() {
           <a
             href="http://google.com.br"
             target="_blank"
-            className="text-slate-300 hover:scale-105 hover:font-normal tracking-wider"
+            className="text-[#333333] hover:scale-105 hover:font-normal tracking-wider"
             rel="noopener noreferrer"
           >
             FOTOS
