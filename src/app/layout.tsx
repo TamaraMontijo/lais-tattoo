@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`w-full font-montserrat ${montserrat.variable} ${crimson.variable} ${barlowCondensed.variable}`}
+        className={`w-full font-montserrat overflow-x-hidden ${montserrat.variable} ${crimson.variable} ${barlowCondensed.variable}`}
       >
         {children}
       </body>
