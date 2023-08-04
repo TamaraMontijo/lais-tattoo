@@ -22,7 +22,7 @@ function AboutMe() {
           />
         </div>
       </div>
-      <div className="h-full w-1/2 bg-[#817d7d]">
+      <div className="h-full w-1/2 bg-palette-100">
         <div>
           <h1 className="font-sans">Cada traço que desenho conta uma história única sobre você.</h1>
           <h1>Cada traço que desenho conta uma história única sobre você.</h1>
