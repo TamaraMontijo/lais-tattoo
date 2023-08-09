@@ -7,7 +7,7 @@ interface buttonProps {
 export function Button(props: buttonProps) {
   return (
     <a href={props.href} target={props.target}>
-      <button className="bg-palette-400 hover:bg-palette-300 text-white font-barlow uppercase tracking-wider py-6 px-16">
+      <button className="bg-palette-300 hover:bg-palette-400 text-white font-barlow uppercase tracking-wider px-16 h-[45px] whitespace-nowrap">
         {props.text}
       </button>
     </a>
