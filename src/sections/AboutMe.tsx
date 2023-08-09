@@ -31,27 +31,27 @@ function AboutMe() {
           </h1>
 
           <div className="w-full absolute top-80 flex flex-col justify-center ml-28">
-            <div className="text-[#333333] w-1/2 justify-center items-center text-justify">
+            <div className="text-[#333333] w-1/2 justify-center items-center ">
               <div className="border-solid border-l border-[#333333] pt-12 pl-8 relative">
                 <span className="w-3 h-3 bg-[#333333] rounded-full block absolute -top-1 -left-1.5"></span>
 
-                <div className="flex items-center justify-center mb-8">
+                <div className="flex items-center justify-center mb-14">
                   <Image
                     src="../../logo.svg"
                     className="text-center"
                     alt="Logo Lais Tattoo"
-                    width={100}
-                    height={100}
+                    width={110}
+                    height={110}
                   />
                 </div>
 
-                <h3 className="font-montserrat text-base tracking-widest text-center font-light mt-4 pb-10 text-white">
-                  Sou movida pela paixão de tatuar histórias, eternizar memórias
-                  e
-                  <br /> registrar emoções. <br />
-                  Cada traço que faço é como uma pincelada de personalidade que
-                  fica pra sempre.
-                </h3>
+                <div className="flex justify-center">
+                  <h3 className="font-montserrat text-base tracking-widest font-light mt-4 pb-14 text-white text-justify w-4/5">
+                    Sou movida pela paixão de tatuar histórias, eternizar
+                    memórias e registrar emoções. Cada traço que faço é como uma
+                    pincelada de personalidade que fica pra sempre.
+                  </h3>
+                </div>
               </div>
 
               <div>
