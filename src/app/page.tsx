@@ -1,8 +1,9 @@
 import { Button } from "@/components/Button";
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { AboutMe } from "@/sections/AboutMe";
-import { Section1 } from "@/sections/Section1";
-import { Section2 } from "@/sections/Section2";
+import { Studio } from "@/sections/Studio";
+import { MyWork } from "@/sections/MyWork";
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
         ></Button>
       </div>
       <AboutMe></AboutMe>
-      <Section1></Section1>
-      <Section2></Section2>
+      <MyWork></MyWork>
+      <Studio></Studio>
+      <Footer></Footer>
 
       
     </main>
