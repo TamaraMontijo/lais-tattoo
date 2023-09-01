@@ -5,9 +5,7 @@ export function Map() {
     width="500"
     height="500"
     style={{ border: 0 }}
-    allowFullScreen=""
     loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
   ></iframe>
   )
 }
