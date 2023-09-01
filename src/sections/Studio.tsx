@@ -38,8 +38,8 @@ function Studio() {
       <div className="flex flex-col absolute top-1/4 left-[50%] translate-y-[-50%] w-[30vw] h-[85vh]">
         <Image
           src="/studio2.jpg"
-          className="object-fit translate-x-[-30%] translate-y-[20%]"
-          alt="Imagem tatuagem de flor"
+          className="object-fit translate-y-[20%]"
+          alt="Foto do estúdio"
           width={800}
           height={500}
         />
