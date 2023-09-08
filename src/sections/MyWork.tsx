@@ -14,7 +14,7 @@ function MyWork() {
   return (
     <div>
       {/* LARGE SCREEN */}
-    <div className="bg-palette-50 w-screen md:h-[120vh] h-[235vh] relative max-lg:flex max-lg:items-center max-lg:justify-center">
+    <div className="bg-palette-50 w-screen md:h-[120vh] h-[200vh] relative max-lg:flex max-lg:items-center max-lg:justify-center">
       <div className="bg-[#817d7d] flex md:max-lg:w-[70%] md:max-lg:h-[60%] lg:absolute lg:top-1/2 lg:right-1/2 lg:translate-x-1/2 lg:translate-y-[-50%] lg:w-[30vw] lg:h-[85vh]">
         <div className="md:flex md:max-lg:items-center md:max-lg:justify-center md:max-lg:w-full">
           <div className="image md:w-[400px]">
