@@ -15,7 +15,7 @@ export function Header() {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <header className="bg-white p-5 flex font-sans w-full h-32 px-12 md:px-20">
+    <header className="bg-white p-5 flex font-sans w-full h-32 px-12 md:px-20 max-md:fixed max-md:z-50 max-md:left-0">
       <nav className="container mx-auto max flex flex-row justify-between items-center">
         <div className="logo hover:scale-110 cursor-pointer">
           <Image
@@ -25,7 +25,7 @@ export function Header() {
             height={100}
           />
         </div>
-        <div className="max-md:hidden links flex flex-row gap-10 font-montserrat font-light">
+        <div className="links max-md:hidden md:flex flex-row gap-10 font-montserrat font-light">
           {Links.map((link) => (
             <a
               key={link.name}
@@ -59,15 +59,16 @@ export function Header() {
             </h3>
           </div>
           <ul
-            className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-              open ? "top-20 " : "top-[-490px]"
+            className={`md:flex md:items-center md:pb-0 pb-12 p-40 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full h-screen md:w-auto md:pl-0 transition-all duration-500 ease-in ${
+              open ? "top-20 " : "top-[-800px]"
             }`}
           >
             {Links.map((link) => (
               <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
                 <a
                   href={link.link}
-                  className="text-gray-800 hover:text-gray-400 duration-500"
+                  target="_blank"
+                  className="text-gray-800 hover:text-gray-400 duration-500 uppercase"
                 >
                   {link.name}
                 </a>
