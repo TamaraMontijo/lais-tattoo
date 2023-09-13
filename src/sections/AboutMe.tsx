@@ -11,9 +11,9 @@ const crimson = Crimson({
 
 function AboutMe() {
   return (
-    <div className="flex flex-row h-screen w-full">
-      <div className="h-full bg-gray-900 w-1/2 relative">
-        <div className="image absolute inset-0">
+    <div className="lg:flex lg:flex-row h-screen w-full">
+      <div className="lg:h-full bg-gray-900 md:w-1/2 relative">
+        <div className="image absolute inset-0 max-lg:top-[180px] max-lg:left-0 max-md:w-[260px] md:w-full max-md:h-[355px] md:h-[50vh] lg:h-full">
           <Image
             src="/sobre.png"
             className="object-fit"
@@ -23,9 +23,9 @@ function AboutMe() {
           />
         </div>
       </div>
-      <div className="h-full w-1/2 bg-[#817d7d]">
-        <div className="relative">
-          <h1 className="font-crimson font-semibold text-5xl text-white absolute -left-1/4 top-48">
+      <div className="h-full lg:w-1/2 bg-[#817d7d]">
+        <div className="relative max-lg:left-[30%]">
+          <h1 className="font-crimson font-semibold text-5xl md:text-4xl text-white absolute lg:-left-1/4 max-md:top-56 top-48 max-md:w-[70%]">
             Cada traço que desenho conta <br />
             uma história única sobre você.
           </h1>
