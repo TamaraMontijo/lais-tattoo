@@ -32,7 +32,7 @@ function AboutMe() {
 
           <div className="w-full absolute top-80 flex flex-col justify-center ml-28">
             <div className="text-[#333333] w-1/2 justify-center items-center ">
-              <div className="border-solid max-md:border-r md:border-l border-[#333333] max-md:pt-20 md:pt-12 pr-8 md:pl-8 relative max-md:right-[90px] max-md:mt-28">
+              <div className="border-solid max-md:border-r md:border-l border-[#333333] max-md:pt-20 md:pt-12 pr-8 md:pl-8 relative max-md:right-[90px] max-md:mt-28 max-md:translate-x-[-88px]">
                 <span className="w-3 h-3 bg-[#333333] rounded-full block absolute -top-1 -right-1.5 md:-left-1.5"></span>
 
                 <div className="flex items-center justify-center md:mb-14">
