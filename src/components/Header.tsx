@@ -15,7 +15,7 @@ export function Header() {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <header className="bg-white p-5 flex font-sans w-full h-32 px-12 md:px-20 max-md:fixed max-md:z-50 max-md:left-0">
+    <header className="bg-white p-5 flex font-sans w-screen h-32 px-12 md:px-20 max-md:fixed max-md:z-50 max-md:left-0">
       <nav className="container mx-auto max flex flex-row justify-between items-center">
         <div className="logo hover:scale-110 cursor-pointer">
           <Image
