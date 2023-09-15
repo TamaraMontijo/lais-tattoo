@@ -20,8 +20,6 @@ export default function Home() {
       <MyWork></MyWork>
       <Studio></Studio>
       <Footer></Footer>
-
-      
     </main>
   );
 }
